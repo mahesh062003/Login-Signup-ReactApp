@@ -1,0 +1,125 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 700px;
+    margin-top: 200px;
+    border-radius: 50px;
+    border-style:double;
+    border-color: rgb(45, 78, 221);
+    background: #000000;
+    padding-bottom: 30px;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: rgb(11, 110, 240);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: rgb(11, 110, 240);
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    border-radius: 6px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.input:hover {
+    background: rgba(11, 110, 240, 0.1);
+    transform: scale(1.02);
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(11, 110, 240);
+    font-size: 19px;
+    transition: border-bottom 0.3s;
+}
+
+.input input:hover {
+    border-bottom: 2px solid rgb(11, 110, 240);
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: rgb(207, 218, 231);
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: rgb(11, 110, 240);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.forgot-password span:hover {
+    color: #5a5656;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #ebe3e3;
+    background: rgb(11, 110, 240);
+    border-radius: 0px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.submit:hover {
+    background: #666464;
+    transform: scale(1.02);
+}
+
+.gray {
+    background: #f3f0f0;
+    color: #0f0e0e;
+}
